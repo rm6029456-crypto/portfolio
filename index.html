@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Malviya | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+
+    <nav>
+        <div class="container">
+            <div class="logo">RM.</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="hero-badge">Available for New Opportunities</span>
+                <h1>Hi, I'm <span class="highlight">Rohit Malviya</span></h1>
+                <p class="hero-description">
+                    Software Developer based in Pune. With 2.4+ years of experience specializing in **Ruby on Rails**, building robust backends and dynamic frontends.
+                </p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="Rohit%20Malviya%20-%20ROR%20(1).pdf" class="btn btn-secondary" download style="display: flex; align-items: center; gap: 0.5rem;">
+                        <i data-lucide="download" style="width: 18px; height: 18px;"></i>
+                        Download CV
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="glass-card" style="max-width: 1000px; margin: 0 auto;">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="profile1.jpg" alt="Rohit Malviya">
+                    </div>
+                    <div class="about-text">
+                        <p class="hero-description" style="max-width: 100%; margin-bottom: 0;">
+                            I am a <strong>Software Developer</strong> with 2.4+ years of experience in full-stack development, currently living and working in <strong>Pune</strong>. My expertise lies in building and scaling complex applications using <strong>Ruby on Rails</strong>, with a deep focus on backend architecture and major system upgrades.
+                            <br><br>
+                            Throughout my journey at <strong>Tudip Technology</strong>, I've delivered high-impact solutions like <strong>Eatster</strong>, a large-scale e-commerce food delivery platform in Slovakia, where I led critical version migrations and API integrations. I also revamped <strong>Brightside</strong>, a mentoring domain, upgrading its core infrastructure and enhancing the frontend with modern JavaScript and AJAX.
+                            <br><br>
+                            Beyond Ruby on Rails, I'm passionate about the intersection of AI and data. Most recently, I developed an <strong>NLP-based Text-to-SQL Converter</strong> using <strong>FastAPI</strong> and <strong>Gemini AI</strong>, enabling users to interact with databases using natural language.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About/Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">Ruby</div>
+                <div class="skill-tag">Rails</div>
+                <div class="skill-tag">SQL</div>
+                <div class="skill-tag">MySQL</div>
+                <div class="skill-tag">PostgreSQL</div>
+                <div class="skill-tag">Azure</div>
+                <div class="skill-tag">Git</div>
+                <div class="skill-tag">HTML5</div>
+                <div class="skill-tag">CSS3</div>
+                <div class="skill-tag">JavaScript</div>
+                <div class="skill-tag">AJAX</div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2 class="section-title">Professional Journey</h2>
+            <div class="experience-list">
+                <div class="glass-card">
+                    <div class="card-content">
+                        <div class="meta">Nov 2023 - Present</div>
+                        <h3>Software Developer</h3>
+                        <p class="company">Tudip Technology</p>
+                        <p class="hero-description" style="font-size: 1rem; margin-top: 1rem;">
+                            Focused on Ruby on Rails development, version upgrades, and API optimizations. Contributing to full-stack applications with high-quality code and scalable architecture.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: AI SQL Converter -->
+                <div class="glass-card">
+                    <div class="card-content">
+                        <div class="meta">AI & Foundation Models</div>
+                        <h3>NLP Text-to-SQL Converter</h3>
+                        <p>A powerful tool that bridges the gap between natural language and complex database queries.</p>
+                        <ul style="margin: 1rem 0; color: var(--text-secondary); padding-left: 1.2rem;">
+                            <li>Converts human-readable text into precise SQL queries using Gemini AI</li>
+                            <li>Automates data retrieval from databases for non-technical users</li>
+                            <li>Built with high-performance FastAPI backend and interactive React frontend</li>
+                        </ul>
+                        <div class="card-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">React JS</span>
+                            <span class="tag">Gemini AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="glass-card">
+                    <div class="card-content">
+                        <div class="meta">E-commerce / Logistics</div>
+                        <h3>Eatster</h3>
+                        <p>An online food delivery application serving Slovakia. Optimized for high-traffic environments and seamless user experience.</p>
+                        <ul style="margin: 1rem 0; color: var(--text-secondary); padding-left: 1.2rem;">
+                            <li>Major version upgrade from Rails 6.1 to 7.2</li>
+                            <li>Implemented robust API integrations for delivery tracking</li>
+                        </ul>
+                        <div class="card-tags">
+                            <span class="tag">Ruby on Rails</span>
+                            <span class="tag">API Design</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="glass-card">
+                    <div class="card-content">
+                        <div class="meta">Mentoring Platform</div>
+                        <h3>Brightside</h3>
+                        <p>A specialized online mentoring domain facilitating connections between mentors and mentees.</p>
+                        <ul style="margin: 1rem 0; color: var(--text-secondary); padding-left: 1.2rem;">
+                            <li>Major version upgrade from Rails 4.2.2 to 7.2</li>
+                            <li>Developed front-end interactive components using AJAX and Vanilla JS</li>
+                            <li>Integrated complex external APIs</li>
+                        </ul>
+                        <div class="card-tags">
+                            <span class="tag">Ruby on Rails</span>
+                            <span class="tag">AJAX</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Frontend</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="glass-card" style="text-align: center; padding: 4rem 2rem;">
+                <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Let's Build Something Together</h2>
+                <p class="hero-description" style="margin: 0 auto 2.5rem;">
+                    Currently looking for new opportunities in Pune or remote. Feel free to reach out if you'd like to collaborate!
+                </p>
+                <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin-bottom: 2.5rem;">
+                    <a href="mailto:rm6029456@gmail.com" style="color: var(--accent-color); text-decoration: none; font-size: 1.2rem; font-weight: 600;">
+                        rm6029456@gmail.com
+                    </a>
+                    <span style="color: var(--text-secondary); font-size: 1.1rem;">
+                        +91 6388932198
+                    </span>
+                </div>
+                <div class="cta-group" style="justify-content: center;">
+                    <a href="mailto:rm6029456@gmail.com" class="btn btn-primary">Send Email</a>
+                    <a href="Rohit%20Malviya%20-%20ROR%20(1).pdf" class="btn btn-secondary" download style="display: flex; align-items: center; gap: 0.5rem;">
+                        <i data-lucide="download" style="width: 18px; height: 18px;"></i>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rohit Malviya. Built with Passion & Rails.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = "1";
+                    entry.target.style.transform = "translateY(0)";
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = "0";
+            section.style.transform = "translateY(20px)";
+            section.style.transition = "all 0.8s ease-out";
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
