@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohit Malviya | Software Developer</title>
+    <title>Rohit Malviya | Data Analyst</title>
+    <meta name="description" content="Rohit Malviya - Data Analyst with 3 years of experience specializing in Power BI, SQL, Python, Apache Airflow, Azure DevOps, and Databricks.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -16,9 +17,10 @@
 
     <nav>
         <div class="container">
-            <div class="logo">RM.</div>
+            <div class="logo">RM<span style="color: var(--accent-color);">.</span></div>
             <div class="nav-links">
                 <a href="#about">About</a>
+                <a href="#certification">Certification</a>
                 <a href="#skills">Skills</a>
                 <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
@@ -31,18 +33,89 @@
         <!-- Hero Section -->
         <section class="hero" id="home">
             <div class="hero-content">
-                <span class="hero-badge">Available for New Opportunities</span>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin-bottom: 1.5rem;">
+                    <span class="hero-badge" style="margin-bottom: 0; display: inline-flex; align-items: center; gap: 0.5rem;">
+                        <i data-lucide="bar-chart-2" style="width: 16px; height: 16px;"></i>
+                        Data Analyst • 3+ yrs of exp
+                    </span>
+                    <a href="databricks-certification.html" target="_blank" class="cert-badge-pill">
+                        <i data-lucide="award" style="width: 16px; height: 16px;"></i>
+                        Databricks Certified Data Engineer Professional
+                    </a>
+                </div>
+
                 <h1>Hi, I'm <span class="highlight">Rohit Malviya</span></h1>
                 <p class="hero-description">
-                    Software Developer based in Pune. With 2.4+ years of experience specializing in **Ruby on Rails**, building robust backends and dynamic frontends.
+                    <strong>Data Analyst</strong> with <strong>3+ yrs of exp</strong> specializing in automating business <strong>MIS workflows</strong>, creating interactive <strong>Power BI dashboards</strong>, orchestrating data pipelines with <strong>Apache Airflow</strong> and <strong>Azure DevOps</strong>, and optimizing <strong>Databricks ETL pipelines</strong> & <strong>Azure Delta Lake</strong> architectures.
                 </p>
                 <div class="cta-group">
-                    <a href="#projects" class="btn btn-primary">View Projects</a>
-                    <a href="Rohit%20Malviya%20-%20ROR%20(1).pdf" class="btn btn-secondary" download style="display: flex; align-items: center; gap: 0.5rem;">
-                        <i data-lucide="download" style="width: 18px; height: 18px;"></i>
-                        Download CV
+                    <a href="databricks-certification.html" target="_blank" class="cert-btn">
+                        <i data-lucide="award" style="width: 18px; height: 18px;"></i>
+                        View Databricks Certificate
                     </a>
-                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    <a href="#projects" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                        <i data-lucide="layers" style="width: 18px; height: 18px;"></i>
+                        View Projects
+                    </a>
+                    <a href="Data%20engineer.pdf" class="btn btn-secondary" download style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                        <i data-lucide="download" style="width: 18px; height: 18px;"></i>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights Grid -->
+        <section style="padding: 0 0 40px 0;">
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon">
+                        <i data-lucide="bar-chart-3"></i>
+                    </div>
+                    <div class="metric-title">Power BI & MIS Reporting</div>
+                    <div class="metric-desc">Created comprehensive MIS for Kotak Mahindra with executive Power BI dashboards for leadership insights.</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">
+                        <i data-lucide="workflow"></i>
+                    </div>
+                    <div class="metric-title">Airflow & Python Automation</div>
+                    <div class="metric-desc">Automated scheduled DAGs, data processing routines, and email reports with full metric details.</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">
+                        <i data-lucide="git-branch"></i>
+                    </div>
+                    <div class="metric-title">Azure DevOps CI/CD</div>
+                    <div class="metric-desc">Centralized code repository management, version control, and continuous automated deployments.</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">
+                        <i data-lucide="cpu"></i>
+                    </div>
+                    <div class="metric-title">Databricks & Delta Lake</div>
+                    <div class="metric-desc">Built and optimized ETL pipelines; migrated legacy on-premise databases into Azure Delta Lake.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certification Showcase Section -->
+        <section id="certification" style="padding: 20px 0;">
+            <div class="cert-card">
+                <div class="cert-card-left">
+                    <div class="cert-icon-box">
+                        <i data-lucide="award" style="width: 28px; height: 28px;"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Databricks Certified Data Engineer Professional</h3>
+                        <p>Official Databricks Credential • Advanced Big Data, ETL Optimization & Lakehouse Engineering</p>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+                    <a href="databricks-certification.html" target="_blank" class="cert-btn">
+                        <i data-lucide="external-link" style="width: 18px; height: 18px;"></i>
+                        Load Certificate
+                    </a>
                 </div>
             </div>
         </section>
@@ -53,114 +126,242 @@
             <div class="glass-card" style="max-width: 1000px; margin: 0 auto;">
                 <div class="about-content">
                     <div class="about-image">
-                        <img src="profile1.jpg" alt="Rohit Malviya">
+                        <img src="profile1.jpg" alt="Rohit Malviya - Data Analyst">
                     </div>
                     <div class="about-text">
                         <p class="hero-description" style="max-width: 100%; margin-bottom: 0;">
-                            I am a <strong>Software Developer</strong> with 2.4+ years of experience in full-stack development, currently living and working in <strong>Pune</strong>. My expertise lies in building and scaling complex applications using <strong>Ruby on Rails</strong>, with a deep focus on backend architecture and major system upgrades.
+                            I am a <strong>Data Analyst</strong> with <strong>3+ yrs of exp</strong> building automated reporting systems, interactive business dashboards, and optimized data pipelines.
                             <br><br>
-                            Throughout my journey at <strong>Tudip Technology</strong>, I've delivered high-impact solutions like <strong>Eatster</strong>, a large-scale e-commerce food delivery platform in Slovakia, where I led critical version migrations and API integrations. I also revamped <strong>Brightside</strong>, a mentoring domain, upgrading its core infrastructure and enhancing the frontend with modern JavaScript and AJAX.
+                            At <strong>Kotak Mahindra</strong>, I developed and automated the entire <strong>MIS (Management Information System)</strong> workflow. I orchestrated pipelines using <strong>Apache Airflow</strong>, managed code repositories and CI/CD pipelines in <strong>Azure DevOps</strong>, wrote <strong>Python automation scripts</strong> to dispatch detailed scheduled email reports to leadership, and created interactive <strong>Power BI</strong> dashboards for executive visibility.
                             <br><br>
-                            Beyond Ruby on Rails, I'm passionate about the intersection of AI and data. Most recently, I developed an <strong>NLP-based Text-to-SQL Converter</strong> using <strong>FastAPI</strong> and <strong>Gemini AI</strong>, enabling users to interact with databases using natural language.
+                            I hold the <strong>Databricks Certified Data Engineer Professional</strong> credential. In the big data space, I built and optimized production <strong>Databricks ETL pipelines</strong> and migrated data from <strong>on-premise databases to Azure Delta Lake</strong>. I focus on writing clean, efficient code and optimizing complex <strong>SQL</strong> queries to deliver accurate, high-speed insights.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- About/Skills Section -->
+        <!-- Technical Skills Section -->
         <section id="skills">
-            <h2 class="section-title">Technical Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-tag">Ruby</div>
-                <div class="skill-tag">Rails</div>
-                <div class="skill-tag">SQL</div>
-                <div class="skill-tag">MySQL</div>
-                <div class="skill-tag">PostgreSQL</div>
-                <div class="skill-tag">Azure</div>
-                <div class="skill-tag">Git</div>
-                <div class="skill-tag">HTML5</div>
-                <div class="skill-tag">CSS3</div>
-                <div class="skill-tag">JavaScript</div>
-                <div class="skill-tag">AJAX</div>
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-categories-grid">
+                <!-- Category 1 -->
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <i data-lucide="bar-chart-2"></i>
+                        <h3>BI & Analytics</h3>
+                    </div>
+                    <div class="skills-pill-group">
+                        <span class="skill-pill">Power BI (Dashboards & Reports)</span>
+                        <span class="skill-pill">MIS Automation</span>
+                        <span class="skill-pill">Business Metric Tracking</span>
+                        <span class="skill-pill">Executive Reporting</span>
+                        <span class="skill-pill">Data Visualization</span>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <i data-lucide="code-2"></i>
+                        <h3>Core Languages & Scripting</h3>
+                    </div>
+                    <div class="skills-pill-group">
+                        <span class="skill-pill">SQL (Complex Queries)</span>
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">Automated Email Scripts</span>
+                        <span class="skill-pill">SQL Query Optimization</span>
+                        <span class="skill-pill">Data Cleansing & Validation</span>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <i data-lucide="workflow"></i>
+                        <h3>Orchestration & DevOps</h3>
+                    </div>
+                    <div class="skills-pill-group">
+                        <span class="skill-pill">Apache Airflow</span>
+                        <span class="skill-pill">DAG Scheduling</span>
+                        <span class="skill-pill">Azure DevOps</span>
+                        <span class="skill-pill">CI/CD Pipelines</span>
+                        <span class="skill-pill">Code Storage & Version Control</span>
+                    </div>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <i data-lucide="cpu"></i>
+                        <h3>ETL & Cloud Modernization</h3>
+                    </div>
+                    <div class="skills-pill-group">
+                        <span class="skill-pill">Databricks (Certified Professional)</span>
+                        <span class="skill-pill">Azure Delta Lake</span>
+                        <span class="skill-pill">ETL Pipeline Optimization</span>
+                        <span class="skill-pill">On-Premise Databases</span>
+                        <span class="skill-pill">Data Migration</span>
+                        <span class="skill-pill">Microsoft Azure</span>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!-- Experience Section -->
+        <!-- Professional Experience Section -->
         <section id="experience">
-            <h2 class="section-title">Professional Journey</h2>
+            <h2 class="section-title">Professional Experience</h2>
             <div class="experience-list">
+                <!-- Role 1: Kotak Mahindra -->
                 <div class="glass-card">
                     <div class="card-content">
-                        <div class="meta">Nov 2023 - Present</div>
-                        <h3>Software Developer</h3>
-                        <p class="company">Tudip Technology</p>
-                        <p class="hero-description" style="font-size: 1rem; margin-top: 1rem;">
-                            Focused on Ruby on Rails development, version upgrades, and API optimizations. Contributing to full-stack applications with high-quality code and scalable architecture.
-                        </p>
+                        <div class="meta">Financial Services / Banking</div>
+                        <h3>Data Analyst — MIS Automation & BI Reporting</h3>
+                        <div class="company-badge">
+                            <i data-lucide="building-2" style="width: 16px; height: 16px;"></i>
+                            Kotak Mahindra
+                        </div>
+                        <ul class="achievement-list">
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>
+                                    <strong>End-to-End MIS Automation:</strong> Designed and deployed automated MIS reporting workflows, eliminating manual compilation and ensuring 100% on-time metric delivery.
+                                </div>
+                            </li>
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>
+                                    <strong>Power BI Dashboard & Report Creation:</strong> Built and published interactive Power BI dashboards enabling leadership to track real-time KPIs, trends, and operational metrics.
+                                </div>
+                            </li>
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>
+                                    <strong>Automated Python Email Reporting:</strong> Created custom Python scripts that aggregate key business metrics, format report outputs, and dispatch scheduled emails containing complete operational details to stakeholders.
+                                </div>
+                            </li>
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>
+                                    <strong>Apache Airflow Pipeline Orchestration:</strong> Engineered and scheduled production Airflow DAGs to automate data extraction, validation, and transformation tasks.
+                                </div>
+                            </li>
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>
+                                    <strong>Azure DevOps CI/CD & Code Management:</strong> Maintained codebase in Azure DevOps Git repositories and configured automated deployment pipelines for reliable code releases.
+                                </div>
+                            </li>
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>
+                                    <strong>SQL Query & Code Optimization:</strong> Analyzed slow queries and optimized complex SQL logic, significantly improving processing speed and data accuracy.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Role 2: Databricks & Cloud Migration -->
+                <div class="glass-card">
+                    <div class="card-content">
+                        <div class="meta">Big Data & Cloud Lakehouse</div>
+                        <h3>Data Analyst / Engineer — Databricks ETL & Cloud Migration</h3>
+                        <div class="company-badge">
+                            <i data-lucide="award" style="width: 16px; height: 16px;"></i>
+                            Databricks Certified Professional
+                        </div>
+                        <ul class="achievement-list">
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>
+                                    <strong>Databricks ETL Development:</strong> Designed, built, and maintained robust ETL pipelines in Databricks to process structured datasets efficiently.
+                                </div>
+                            </li>
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>
+                                    <strong>On-Premise to Azure Delta Lake Migration:</strong> Successfully migrated critical data from legacy on-premise relational databases into Azure Delta Lake, enabling ACID guarantees and faster query performance.
+                                </div>
+                            </li>
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>
+                                    <strong>Pipeline & Code Optimization:</strong> Optimized data read/write workflows and applied partitioning strategies, reducing job runtimes and compute overhead.
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
+        <!-- Featured Projects Section -->
         <section id="projects">
-            <h2 class="section-title">Featured Projects</h2>
+            <h2 class="section-title">Key Projects</h2>
             <div class="projects-grid">
-                <!-- Project 1: AI SQL Converter -->
+                <!-- Project 1: Kotak Mahindra MIS Automation -->
                 <div class="glass-card">
                     <div class="card-content">
-                        <div class="meta">AI & Foundation Models</div>
-                        <h3>NLP Text-to-SQL Converter</h3>
-                        <p>A powerful tool that bridges the gap between natural language and complex database queries.</p>
-                        <ul style="margin: 1rem 0; color: var(--text-secondary); padding-left: 1.2rem;">
-                            <li>Converts human-readable text into precise SQL queries using Gemini AI</li>
-                            <li>Automates data retrieval from databases for non-technical users</li>
-                            <li>Built with high-performance FastAPI backend and interactive React frontend</li>
+                        <div class="meta">Automation & BI Analytics</div>
+                        <h3>Kotak Mahindra — MIS Automation & Power BI Reporting</h3>
+                        <p>An automated enterprise solution for continuous MIS generation, scheduled email dispatch, and executive BI reporting.</p>
+                        <ul class="achievement-list" style="margin: 1rem 0;">
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>Created interactive Power BI dashboards for leadership analysis and tracking.</div>
+                            </li>
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>Built Python email automation sending detailed business reports with all metrics.</div>
+                            </li>
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>Scheduled end-to-end data pipelines with Apache Airflow DAGs.</div>
+                            </li>
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>Stored code in Azure DevOps and implemented CI/CD deployment pipelines.</div>
+                            </li>
                         </ul>
                         <div class="card-tags">
+                            <span class="tag">Power BI</span>
                             <span class="tag">Python</span>
-                            <span class="tag">FastAPI</span>
-                            <span class="tag">React JS</span>
-                            <span class="tag">Gemini AI</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Apache Airflow</span>
+                            <span class="tag">Azure DevOps</span>
+                            <span class="tag">MIS Automation</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2 -->
+                <!-- Project 2: Databricks ETL & Delta Lake Migration -->
                 <div class="glass-card">
                     <div class="card-content">
-                        <div class="meta">E-commerce / Logistics</div>
-                        <h3>Eatster</h3>
-                        <p>An online food delivery application serving Slovakia. Optimized for high-traffic environments and seamless user experience.</p>
-                        <ul style="margin: 1rem 0; color: var(--text-secondary); padding-left: 1.2rem;">
-                            <li>Major version upgrade from Rails 6.1 to 7.2</li>
-                            <li>Implemented robust API integrations for delivery tracking</li>
+                        <div class="meta">Cloud Modernization</div>
+                        <h3>Databricks ETL & Azure Delta Lake Migration</h3>
+                        <p>Modernized data architecture by migrating legacy on-premise relational databases to Azure Delta Lake.</p>
+                        <ul class="achievement-list" style="margin: 1rem 0;">
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>Built and optimized production ETL pipelines in Databricks.</div>
+                            </li>
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>Migrated on-premise relational databases to Azure Delta Lake with ACID compliance.</div>
+                            </li>
+                            <li>
+                                <i data-lucide="check-circle-2"></i>
+                                <div>Optimized code and query execution plans for maximum pipeline performance.</div>
+                            </li>
                         </ul>
                         <div class="card-tags">
-                            <span class="tag">Ruby on Rails</span>
-                            <span class="tag">API Design</span>
-                            <span class="tag">PostgreSQL</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="glass-card">
-                    <div class="card-content">
-                        <div class="meta">Mentoring Platform</div>
-                        <h3>Brightside</h3>
-                        <p>A specialized online mentoring domain facilitating connections between mentors and mentees.</p>
-                        <ul style="margin: 1rem 0; color: var(--text-secondary); padding-left: 1.2rem;">
-                            <li>Major version upgrade from Rails 4.2.2 to 7.2</li>
-                            <li>Developed front-end interactive components using AJAX and Vanilla JS</li>
-                            <li>Integrated complex external APIs</li>
-                        </ul>
-                        <div class="card-tags">
-                            <span class="tag">Ruby on Rails</span>
-                            <span class="tag">AJAX</span>
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">Frontend</span>
+                            <span class="tag">Databricks</span>
+                            <span class="tag">Azure Delta Lake</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Data Migration</span>
+                            <span class="tag">ETL Optimization</span>
                         </div>
                     </div>
                 </div>
@@ -170,23 +371,32 @@
         <!-- Contact Section -->
         <section id="contact">
             <div class="glass-card" style="text-align: center; padding: 4rem 2rem;">
-                <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Let's Build Something Together</h2>
-                <p class="hero-description" style="margin: 0 auto 2.5rem;">
-                    Currently looking for new opportunities in Pune or remote. Feel free to reach out if you'd like to collaborate!
+                <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Let's Connect</h2>
+                <p class="hero-description" style="margin: 0 auto 2.5rem; max-width: 600px;">
+                    Open to Data Analyst opportunities. Let's discuss Power BI dashboards, automated MIS pipelines, or cloud data architectures.
                 </p>
                 <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin-bottom: 2.5rem;">
-                    <a href="mailto:rm6029456@gmail.com" style="color: var(--accent-color); text-decoration: none; font-size: 1.2rem; font-weight: 600;">
+                    <a href="mailto:rm6029456@gmail.com" style="color: var(--accent-color); text-decoration: none; font-size: 1.25rem; font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem;">
+                        <i data-lucide="mail" style="width: 20px; height: 20px;"></i>
                         rm6029456@gmail.com
                     </a>
-                    <span style="color: var(--text-secondary); font-size: 1.1rem;">
+                    <span style="color: var(--text-secondary); font-size: 1.1rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                        <i data-lucide="phone" style="width: 18px; height: 18px;"></i>
                         +91 6388932198
                     </span>
                 </div>
                 <div class="cta-group" style="justify-content: center;">
-                    <a href="mailto:rm6029456@gmail.com" class="btn btn-primary">Send Email</a>
-                    <a href="Rohit%20Malviya%20-%20ROR%20(1).pdf" class="btn btn-secondary" download style="display: flex; align-items: center; gap: 0.5rem;">
+                    <a href="mailto:rm6029456@gmail.com" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                        <i data-lucide="send" style="width: 18px; height: 18px;"></i>
+                        Send Email
+                    </a>
+                    <a href="Data%20engineer.pdf" class="btn btn-secondary" download style="display: inline-flex; align-items: center; gap: 0.5rem;">
                         <i data-lucide="download" style="width: 18px; height: 18px;"></i>
-                        Download CV
+                        Download Resume
+                    </a>
+                    <a href="databricks-certification.html" target="_blank" class="cert-btn">
+                        <i data-lucide="award" style="width: 18px; height: 18px;"></i>
+                        View Certificate
                     </a>
                 </div>
             </div>
@@ -195,21 +405,27 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Rohit Malviya. Built with Passion & Rails.</p>
+            <p>&copy; <span id="current-year">2026</span> Rohit Malviya | Data Analyst • Databricks Certified Data Engineer Professional</p>
         </div>
     </footer>
 
     <script>
+        // Set dynamic copyright year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
         // Initialize Lucide icons
         lucide.createIcons();
 
-        // Smooth Scroll
+        // Smooth Scroll for Navigation
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
             });
         });
 
